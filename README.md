@@ -9,3 +9,6 @@ XCode para compilar iOS
 #Intrucciones
 - Línea 57: Inventar una contraseña
 - Línea 76: Copiar datos de la tarjeta
+
+#Licencia
+GNU GPLv3 Cualquier contribución, copia o modificación del código debe ser pública.
