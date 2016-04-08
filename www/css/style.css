@@ -1,0 +1,14 @@
+.input-coord {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+input[disabled] {
+	background-color: white;
+}
+
+.output-coord {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}

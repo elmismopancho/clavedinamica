@@ -1,0 +1,44 @@
+<ion-view view-title="Banco Security">
+	<ion-content padding="true" ng-controller="HomeCtrl as ctrl">
+		<h3>Ingrese coordenadas</h3>
+		<div class="row">
+			<div class="col">
+				<label class="item item-input">
+					<input class="input-coord" type="text" maxlength="2" ng-model="ctrl.c[0]" placeholder="a1">
+				</label>
+			</div>
+			<div class="col">
+				<div class="item item-input">
+					<input class="output-coord" disabled="disabled" type="text" maxlength="2" ng-value="ctrl.r[0]">	
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<label class="item item-input">
+					<input class="input-coord" type="text" maxlength="2" ng-model="ctrl.c[1]" placeholder="b2">
+				</label>
+			</div>
+			<div class="col">
+				<div class="item item-input">
+					<input class="output-coord" disabled="disabled" type="text" maxlength="2" ng-value="ctrl.r[1]">	
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<label class="item item-input">
+					<input class="input-coord" type="text" maxlength="2" ng-model="ctrl.c[2]" placeholder="c3">
+				</label>
+			</div>
+			<div class="col">
+				<div class="item item-input">
+					<input class="output-coord" disabled="disabled" type="text" maxlength="2" ng-value="ctrl.r[2]">	
+				</div>
+			</div>
+		</div>
+		<button class="button button-block button-dark" ng-click="ctrl.onCalcular()">
+			Calcular
+		</button>
+	</ion-content>
+</ion-view>
