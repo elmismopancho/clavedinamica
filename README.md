@@ -7,6 +7,7 @@ Android SDK para compilar android
 XCode para compilar iOS
 
 #Intrucciones
+En js/app.js modificar en las siguientes líneas:
 - Línea 57: Inventar una contraseña
 - Línea 76: Copiar datos de la tarjeta
 
